@@ -62,7 +62,10 @@ const translations: Record<Language, any> = {
 
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('pt')
+  const browserLang = navigator.language.slice(0, 2) // pega "pt" ou "en"
+  const initialLang: Language = browserLang === 'en' ? 'en' : 'pt'
+
+  const [language, setLanguage] = useState<Language>(initialLang)
 
   function t(key: string) {
     return translations[language][key] || key

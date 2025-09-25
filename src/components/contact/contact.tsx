@@ -45,7 +45,7 @@ const Contact = () => {
                 <img className='my-10 mb-2 h-48 w-48 rounded-full flex mx-auto' src='https://media.licdn.com/dms/image/v2/C4E03AQHm-66xsb8XvQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1562413983363?e=1761782400&v=beta&t=UjTLfyUZkvpZE1cLqk9dh-MpzgWF7irgnHNhnLk1A6c'></img>
                 <div>
                     <p className={classNames(styles.contactText, 'py-6 text-lg text-center desktop:text-left')}>{t('contactText')}</p>
-                    <div className='flex justify-center desktop:justify-left mx-auto gap-3 items-center'>
+                    <div className='flex justify-center desktop:justify-start mx-auto gap-3 items-center'>
                         {contacts.map(({ selector: Icon, link }, i) => (
                             <a key={i} href={link} target="_blank" rel="noopener noreferrer">
                                 <Icon className={classNames(styles.contactIcon, "w-10 h-10")} />

@@ -71,7 +71,11 @@ function Header() {
                         </a>
                     ))}
                     <Button
-                        onClick={() => setLanguage(language === 'pt' ? 'en' : 'pt')}
+                        onClick={() => {
+                            setLanguage(language === 'pt' ? 'en' : 'pt');
+                            setMenuOpen(false);
+
+                        }}
                     >
                         {t("switchLang")}
                     </Button>
