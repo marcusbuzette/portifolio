@@ -1,0 +1,17 @@
+.contactSection {
+    background-color: #EAF1F6;
+}
+
+.contactText {
+    color: #172A36;
+}
+
+.contactIcon {
+    transition: all 0.3s ease;
+    color: #172A36;
+}
+
+.contactIcon:hover {
+    color: #8DD9BF;
+    transform: scale(1.025) translateY(-2px);
+}

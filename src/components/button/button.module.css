@@ -1,0 +1,8 @@
+.botao {
+    transition: all 0.3s ease;
+    background-color: #8DD9BF;
+}
+
+.botao:hover {
+    transform: scale(1.025) translateY(-2px);
+}

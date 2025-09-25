@@ -1,0 +1,37 @@
+.slideWrapper {
+    background-color: #EAF1F6;
+}
+
+.habilityTag {
+    background-color: #8DD9BF;
+    color: #172A36;
+}
+
+.projectDescription {
+    color: #172A36;
+}
+
+.projectInfo {
+    background-color: #EAF1F6;
+}
+
+.projectTitle {
+    color: #172A36;
+}
+
+.videoOverride {
+    .ytp-cued-thumbnail-overlay-image {
+        background-position: left;
+    }
+}
+.ytWrapper {
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+@media screen and (min-width:1024px) {
+    .ytWrapper {
+        padding-bottom: 0;
+        height: 100%;
+    }
+}

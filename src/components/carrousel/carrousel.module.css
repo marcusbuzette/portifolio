@@ -1,0 +1,70 @@
+.sliderContainer {
+    max-width: 1100px;
+}
+
+.nextArrowOverride {
+    right: 5px;
+    z-index: 100;
+}
+
+.prevArrowOverride {
+    left: 5px;
+    z-index: 100;
+}
+
+.prevArrowOverride::before,
+.nextArrowOverride::before {
+    color: #172A36;
+}
+
+.customSlider li {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    filter: grayscale(100%);
+    opacity: .5;
+    transition: all ease-in-out .1s;
+}
+
+.customSlider li.slick-active {}
+
+.customSlider li:hover {
+    filter: grayscale(10%);
+    opacity: 1;
+}
+
+.customSlider :global(.slick-dots) {
+    bottom: -75px;
+}
+
+@media screen and (min-width: 1024) {
+    .nextArrowOverride {
+        right: 0;
+    }
+
+    .prevArrowOverride {
+        left: 0;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .customSlider li {
+        width: 80px;
+        height: 80px;
+    }
+
+    .customSlider :global(.slick-dots) {
+        bottom: -120px;
+    }
+}
+
+:global(.my-dots li.slick-active) {
+    transform: scale(1.1);
+    filter: grayscale(10%);
+    opacity: 1;
+}
+
+:global(.slick-prev:before, .slick-next:before) {
+    color: #172A36;
+}
