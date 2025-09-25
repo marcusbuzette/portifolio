@@ -1,5 +1,5 @@
 {
-  "name": "portilofio",
+  "name": "portifolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "classnames": "^2.5.1",
@@ -40,5 +40,5 @@
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2"
   },
-  "homepage": "https://marcusbuzette.github.io/portilofio"
+  "homepage": "https://marcusbuzette.github.io/portifolio"
 }
