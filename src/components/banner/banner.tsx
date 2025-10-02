@@ -1,7 +1,7 @@
 
 
 const videoBanner: string =
-  'https://marcusbuzette.s3.sa-east-1.amazonaws.com/videos/MarcusBuzettePortfolio.mp4';
+  'https://marcusbuzette.com/videos/MarcusBuzettePortfolio.mp4';
 
 const Banner = () => {
   return (
@@ -19,7 +19,7 @@ const Banner = () => {
         </video>
 
         <img className='absolute block  desktop:hidden top-0 left-0 w-full h-full object-cover'
-                src='https://marcusbuzette.s3.sa-east-1.amazonaws.com/images/MarcusBuzetteBG.png'>
+                src='https://marcusbuzette.com/images/MarcusBuzetteBG.png'>
         </img>
 
         {/* CAMADA DE CONTEÚDO */}

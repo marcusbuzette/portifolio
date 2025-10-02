@@ -7,8 +7,8 @@ import { useLanguage } from '../context/languageContext';
 import DOMPurify from 'dompurify'
 
 const resumeLinkLanguages: Record<'pt' | 'en', string> = {
-    pt: "https://marcusbuzette.s3.sa-east-1.amazonaws.com/files/Curriculo-MarcusBuzette.pdf",
-    en: "https://marcusbuzette.s3.sa-east-1.amazonaws.com/files/CV-MarcusBuzette.pdf"
+    pt: "https://marcusbuzette.com/files/Curriculo-MarcusBuzette.pdf",
+    en: "https://marcusbuzette.com/files/CV-MarcusBuzette.pdf"
 }
 
 function About() {
