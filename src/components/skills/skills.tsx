@@ -11,7 +11,7 @@ const skillsByLang: Record<'pt' | 'en', SkillCard[]> = {
     pt: [
         {
             title: "Programação",
-            skillList: ['C#', 'Unity', 'Git', 'HLSL', 'HTML', 'CSS', 'TypeScritp', 'C', 'Java', 'Python']
+            skillList: ['C#', 'Unity', 'Git', 'HLSL', 'HTML', 'CSS', 'TypeScript', 'C', 'Java', 'Python']
         },
         {
             title: "Gestão e Projeto",
@@ -29,7 +29,7 @@ const skillsByLang: Record<'pt' | 'en', SkillCard[]> = {
     en: [
         {
             title: "Programming",
-            skillList: ['C#', 'Unity', 'Git', 'HLSL', 'HTML', 'CSS', 'TypeScritp', 'C', 'Java', 'Python']
+            skillList: ['C#', 'Unity', 'Git', 'HLSL', 'HTML', 'CSS', 'TypeScript', 'C', 'Java', 'Python']
         },
         {
             title: "Project & Management",
