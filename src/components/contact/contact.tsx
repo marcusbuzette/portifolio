@@ -42,7 +42,7 @@ const Contact = () => {
         <div className={classNames(styles.contactSection, 'py-10')} id='contact'>
             <h1 className='sectionTitle uppercase text-3xl tablet:text-4xl pb-5 tracking-wider text-center'>{t('contactTitle')}</h1>
             <div className='grid tablet:flex gap-5 w-4/5 desktop:w-1/2 mx-auto items-center'>
-                <img className='my-10 mb-2 h-48 w-48 rounded-full flex mx-auto' src='https://media.licdn.com/dms/image/v2/C4E03AQHm-66xsb8XvQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1562413983363?e=1761782400&v=beta&t=UjTLfyUZkvpZE1cLqk9dh-MpzgWF7irgnHNhnLk1A6c'></img>
+                <img className='my-10 mb-2 h-48 w-48 rounded-full flex mx-auto' src='https://cdn.marcusbuzette.com/images/1562413984256.jpeg'></img>
                 <div>
                     <p className={classNames(styles.contactText, 'py-6 text-lg text-center desktop:text-left')}>{t('contactText')}</p>
                     <div className='flex justify-center desktop:justify-start mx-auto gap-3 items-center'>
