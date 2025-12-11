@@ -18,7 +18,7 @@ const translations: Record<Language, any> = {
     about: "Sobre Mim",
     contact: "Contato",
     contactTitle: "Vamos Conversar",
-    contactText: "Interessado em colaborar em um projeto ou tirar uma ideia do papel? Entre em contato!",
+    contactText: "Interessado em colaborar em um projeto ou tirar uma ideia do papel? Entre em contato! ",
     skills: "Habilidades",
     skillsTitle: "Minas Habilidades",
     switchLang: "EN",
